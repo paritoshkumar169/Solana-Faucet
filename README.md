@@ -1,8 +1,20 @@
-# React + Vite
+# Solana Faucet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Get SOL tokens for testing on Solana's testnet/devnet.
 
-Currently, two official plugins are available:
+## How to Use
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Connect your Phantom wallet
+2. Request up to 1 SOL daily
+3. See your transaction history
+
+
+## Limits
+
+- Max 1 SOL per request
+- One request per day
+
+## Tech Stack
+
+React, Solana Web3.js, Phantom Wallet
+
