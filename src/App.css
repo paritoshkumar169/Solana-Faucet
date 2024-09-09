@@ -1,0 +1,72 @@
+:root {
+  --bg-primary: #1a1025;
+  --bg-secondary: #2d2640;
+  --text-primary: #ffffff;
+  --text-secondary: #b8b8b8;
+  --accent: #8a2be2;
+  --button-hover: #9d3ff3;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--accent);
+}
+
+.airdrop-container {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: var(--accent);
+  color: var(--text-primary);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.wallet-adapter-button {
+  background-color: var(--accent) !important;
+}
+
+.wallet-adapter-button:hover {
+  background-color: var(--button-hover) !important;
+}
+
+.status-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--bg-primary);
+  border-radius: 6px;
+  font-weight: bold;
+}

@@ -1,0 +1,20 @@
+:root {
+  --bg-primary: #1a1025;
+  --bg-secondary: #2d2640;
+  --text-primary: #ffffff;
+  --text-secondary: #b8b8b8;
+  --accent: #8a2be2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
